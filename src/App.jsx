@@ -6,10 +6,11 @@ import { Header } from './layouts/header'
 import { MainSection } from './layouts/mainSection'
 import { ProjectsSection } from './layouts/projects'
 import { Wrapper } from './layouts/wrapper'
+
 export const App = () => {
 	const [isCursorActive, setIsCursorActive] = useState(false)
 	return (
-		<Router>
+		<Router basename='/'>
 			<Wrapper isCursorActive={isCursorActive}>
 				<Header toggleCursor={setIsCursorActive} />
 				<Routes>
