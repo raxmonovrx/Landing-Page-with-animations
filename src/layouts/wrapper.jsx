@@ -1,10 +1,14 @@
 import PropTypes from 'prop-types'
 import Squares from '../components/bgtheme/squareblocks'
-export const Wrapper = ({ children }) => {
+import SplashCursor from '../components/splashCursor'
+
+export const Wrapper = ({ children, isCursorActive }) => {
 	return (
 		<div>
+			{isCursorActive && <SplashCursor />}
+
 			<div className='h-screen bg-black relative'>
-				<div className='absolute top-0 left-0 h-screen w-full '>
+				<div className='fixed top-0 left-0 h-full w-full '>
 					<Squares
 						speed={0.2}
 						squareSize={40}
@@ -22,5 +26,6 @@ export const Wrapper = ({ children }) => {
 }
 
 Wrapper.propTypes = {
-	children: PropTypes.node.isRequired, // `children` bo'lishi kerak va Reactning har qanday valid turini qabul qiladi
+	children: PropTypes.node.isRequired,
+	isCursorActive: PropTypes.bool,
 }
