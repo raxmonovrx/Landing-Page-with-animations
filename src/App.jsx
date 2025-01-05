@@ -1,4 +1,5 @@
 import Squares from './components/bgtheme/squareblocks'
+import { Header } from './layouts/header'
 export const App = () => {
 	return (
 		<div className='h-screen bg-black relative'>
@@ -8,12 +9,12 @@ export const App = () => {
 					squareSize={40}
 					direction='up' // up, down, left, right, diagonal
 					borderColor='#474747'
-					hoverFillColor='#121212'
+					hoverFillColor=''
 				></Squares>
 			</div>
 			<div className='relative z-30'>
-				<div className='flex justify-center items-center z-30'>
-					<h1 className='text-white'>Salom</h1>
+				<div className='z-30'>
+					<Header />
 				</div>
 			</div>
 		</div>
