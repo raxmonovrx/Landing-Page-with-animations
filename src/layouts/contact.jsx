@@ -89,9 +89,12 @@ export const Contact = () => {
 							{submitted ? (
 								<>
 									<p className='flex items-center opacity-80'>
-										<span className='text-purple-400'>const</span>{' '}
-										<span className='text-blue-400'>response</span>{' '}
-										<span className='text-white'>=</span>{' '}
+										<span className='text-purple-400'>const</span>
+										{'  '}
+										<span className='text-blue-400'>response</span>
+										{'  '}
+										<span className='text-white'>=</span>
+										{'  '}
 										<span className='text-orange-400'>{'{'}</span>
 									</p>
 									<p className='flex items-center opacity-80 ml-4'>
