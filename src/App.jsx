@@ -10,7 +10,7 @@ import { Wrapper } from './layouts/wrapper'
 export const App = () => {
 	const [isCursorActive, setIsCursorActive] = useState(false)
 	return (
-		<Router basename='new-project'>
+		<Router>
 			<Wrapper isCursorActive={isCursorActive}>
 				<Header toggleCursor={setIsCursorActive} />
 				<Routes>
