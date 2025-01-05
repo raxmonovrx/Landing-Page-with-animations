@@ -6,6 +6,7 @@ export default {
 			fontFamily: {
 				code: ['Fira Code', 'monospace'], // Fira Code shriftini qo'shish
 			},
+
 			keyframes: {
 				shine: {
 					'0%': { 'background-position': '100%' },

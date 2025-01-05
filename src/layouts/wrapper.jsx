@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import Squares from '../components/bgtheme/squareblocks'
+import Squares from '../components/squareblocks'
 import SplashCursor from '../components/splashCursor'
 
 export const Wrapper = ({ children, isCursorActive }) => {

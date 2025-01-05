@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 export const MobileMenu = ({
 	isMenuOpen,
@@ -33,34 +34,34 @@ export const MobileMenu = ({
 				</button>
 				<nav className='flex flex-col items-center justify-center h-full space-y-8'>
 					{/* Menu items, each closing the menu when clicked */}
-					<a
-						href='#'
+					<Link
+						to='/'
 						className='text-white text-lg hover:text-gray-200'
 						onClick={handleMenuItemClick} // Menyu elementiga bosilganda menyuni yopish
 					>
 						Home
-					</a>
-					<a
-						href='#'
+					</Link>
+					<Link
+						to='/about'
 						className='text-white text-lg hover:text-gray-200'
 						onClick={handleMenuItemClick}
 					>
 						About
-					</a>
-					<a
-						href='#'
+					</Link>
+					<Link
+						to='/projects'
 						className='text-white text-lg hover:text-gray-200'
 						onClick={handleMenuItemClick}
 					>
-						Services
-					</a>
-					<a
-						href='#'
+						Projects
+					</Link>
+					<Link
+						to='/contact'
 						className='text-white text-lg hover:text-gray-200'
 						onClick={handleMenuItemClick}
 					>
 						Contact
-					</a>
+					</Link>
 					<button
 						onClick={handleToggle}
 						className={`px-4 py-2 text-sm font-medium rounded-lg transition ${
