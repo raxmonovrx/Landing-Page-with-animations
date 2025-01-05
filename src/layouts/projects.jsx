@@ -4,26 +4,27 @@ import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism'
 export const ProjectsSection = () => {
 	const projects = [
 		{
-			title: 'Project One',
+			title: 'Sushiman',
 			description:
-				'A project built with React and Tailwind CSS. A responsive UI with state management.',
-			repo: 'https://github.com/FarruXbek/project-one',
-			demo: 'https://project-one-demo.com',
-			tech: ['React', 'Tailwind CSS', 'Redux'],
+				'A modern, responsive website for a Japanese restaurant specializing in sushi and authentic Japanese cuisine.',
+			repo: 'https://github.com/raxmonovrx/Sushiman',
+			demo: ' https://raxmonovrx.github.io/Sushiman/',
+			tech: ['HTML5', 'CSS3', 'JavaScript'],
 		},
 		{
-			title: 'Project Two',
-			description: 'Node.js and Express backend with JWT authentication.',
-			repo: 'https://github.com/FarruXbek/project-two',
-			demo: 'https://project-two-demo.com',
-			tech: ['Node.js', 'Express', 'JWT'],
+			title: 'Nike Shoes',
+			description:
+				'Modern e-commerce website for Nike shoes built with React and Tailwind CSS.',
+			repo: 'https://github.com/raxmonovrx/Nike-Landing-Page',
+			demo: 'https://nike-landing-page-iota-eight.vercel.app',
+			tech: ['React.js', 'Tailwind CSS', 'Vite'],
 		},
 		{
-			title: 'Project Three',
+			title: 'TODO App',
 			description:
-				'A simple portfolio website built with HTML, CSS, and JavaScript.',
-			repo: 'https://github.com/FarruXbek/project-three',
-			demo: 'https://project-three-demo.com',
+				'A comprehensive TODO application with full-stack implementation.',
+			repo: 'https://github.com/raxmonovrx/TODO-App-Full',
+			demo: 'https://todo-app-phi-ashy-40.vercel.app',
 			tech: ['HTML', 'CSS', 'JavaScript'],
 		},
 	]

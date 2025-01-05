@@ -6,7 +6,7 @@ export const DesktopNav = ({ handleMenuToggle, handleToggle, isOn }) => {
 		<div>
 			<nav className='container mx-auto max-w-screen-lg px-6 py-4 flex items-center justify-between'>
 				<div className='text-2xl font-bold text-white cursor-pointer'>
-					CoderCo.
+					<Link to='/'>CoderCo.</Link>
 				</div>
 				<div className='hidden md:flex space-x-8'>
 					<Link to='/' className='text-white hover:text-gray-200 transition'>
