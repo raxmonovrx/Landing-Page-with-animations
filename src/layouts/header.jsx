@@ -26,7 +26,7 @@ export const Header = ({ toggleCursor }) => {
 		<div>
 			<header className='shadow-lg backdrop:blur-2xl bg-gradient-to-b from-black to-black/20 absolute w-full font-code z-50'>
 				<nav className='container mx-auto max-w-screen-lg px-6 py-4 flex items-center justify-between'>
-					<div className='text-2xl font-bold text-white'>Logo</div>
+					<div className='text-2xl font-bold text-white'>CoderCo.</div>
 					<div className='hidden md:flex space-x-8'>
 						<a href='#' className='text-white hover:text-gray-200 transition'>
 							Home
